@@ -1,0 +1,21 @@
+POST {{host}}/users
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "홍길동",
+  "age": 3
+}
+
+###
+
+GET {{host}}/users
+
+###
+
+GET {{host}}/users/1
+
+###
+
+DELETE {{host}}/users/1

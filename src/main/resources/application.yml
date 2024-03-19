@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+#      uri: mongodb://mongoId:mongoPw@localhost:27017/test-db?authSource=admin
+      # uri? ?????, ???? ????? ??. PropertiesMongoConnectionDetails ??
+      host: localhost
+      port: 27017
+      database: test-db
+      username: mongoId
+      password: mongoPw
+      authentication-database: admin
